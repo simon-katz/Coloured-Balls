@@ -1,10 +1,28 @@
 h1. Coloured Balls
 
-This is an example exercise in visual programming for the London Clojure dojo. Submission of group five.
+This is a modified version of the code produced by Team 5 at the
+early-May 2011 London Clojure Dojo.  I missed that dojo, and
+picked up the code to have a play.  The changes I've made are
+mostly trivial, and are mostly aimed at making things easier for me
+to understand.  I would probably not defend many of the changes as
+being improvements -- in most cases it's just that at my current
+stage of learning Clojure the changes makes things easier for me to
+read the code.
 
-h2. Running the code
+Bruce Durling asked me to post to the group to say what changes I'd
+made, so here it is.
 
-* lein or cake deps
-* To run code
-** java -cp 'lib/*':src clojure.main src/coloured_balls/core.clj
+I've marked the changes I've made with "sk-change:" (without the
+quotes), and included an explanation.
+The only files changed are:
+    readme.textile (this file)
+    project.clj
+    .../src/coloured_balls/core.clj
 
+The Git tool for comparing old and new versions doesn't do a very
+good job of matching up lines in the old and new versions of core.clj.
+If you are really keen to see clearly what changes I have made and if
+you have a side-by-side comparison tool that allows you to tell it
+which lines match up, I'd recommend using that.
+
+Simon Katz, 2011-06-01.
