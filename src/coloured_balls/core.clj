@@ -50,14 +50,14 @@
              []
              (- (* 2 (rand-int 5)) 5))]
       (ball. id
-           (+ wh (rand-int (- window-width (* 2 wh))))
-           (+ wh (rand-int (- window-height (* 2 wh))))
-           (random-velocity-component)
-           (random-velocity-component)
-           (rand-int 256)
-           (rand-int 256)
-           (rand-int 256)
-           wh))))
+             (+ wh (rand-int (- window-width (* 2 wh))))
+             (+ wh (rand-int (- window-height (* 2 wh))))
+             (random-velocity-component)
+             (random-velocity-component)
+             (rand-int 256)
+             (rand-int 256)
+             (rand-int 256)
+             wh))))
 
 (def n-balls 10)
 
@@ -171,7 +171,7 @@
                 connector (vunit (vsub po pb))
                 disp (vsub connector (vunit velocity))
                 new-velocity (vmul (- (vlen velocity))
-                                     (vunit (vadd connector disp)))]
+                                   (vunit (vadd connector disp)))]
             (assoc ball :vx (first new-velocity) :vy (second new-velocity)))
         2 (let [pb [(:x ball) (:y ball)]
                 po [(:x other-ball) (:y other-ball)]

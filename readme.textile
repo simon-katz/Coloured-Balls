@@ -12,17 +12,18 @@ read the code.
 Bruce Durling asked me to post to the group to say what changes I'd
 made, so here it is.
 
-I've marked the changes I've made with "sk-change:" (without the
-quotes), and included an explanation.
+The new file
+    london-clojure-dojo-coloured-balls-early-may-2011-team-5-sk-changes.html
+in the top-level directory shows the original and new
+.../src/coloured_balls/core.clj files side-by-side so it's easy to
+see the changes I made.
+
+I've marked the changes with comments containing "sk-change:" (without
+the quotes), and included explanations.
+
 The only files changed are:
     readme.textile (this file)
     project.clj
     .../src/coloured_balls/core.clj
 
-The Git tool for comparing old and new versions doesn't do a very
-good job of matching up lines in the old and new versions of core.clj.
-If you are really keen to see clearly what changes I have made and if
-you have a side-by-side comparison tool that allows you to tell it
-which lines match up, I'd recommend using that.
-
-Simon Katz, 2011-06-01.
+Simon Katz, 2011-06-02.
